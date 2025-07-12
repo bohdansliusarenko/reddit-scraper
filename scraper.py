@@ -10,10 +10,10 @@ POST_LIMIT = 100  #can change
 OUTPUT_EXCEL = "reddit_posts.xlsx"
 
 #initializing reddit API (replace client_id and client_secret with your own (if needed))
-user_agent = "Scraper 1.0 by u/someneclippedmywings"
+user_agent = "Scraper 1.0 by u/your reddit username"
 reddit = praw.Reddit(
-    client_id="xL_2ysPut_HlkpwrXSkJDQ",
-    client_secret="dr2Ms6CQ1VAAr971mTVNG5419nPRCg",
+    client_id="YOUR_CLIENT_ID",
+    client_secret="YOUR_CLIENT_SECRET",
     user_agent=user_agent
 )
 
